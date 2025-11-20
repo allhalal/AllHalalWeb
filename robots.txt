@@ -1,0 +1,30 @@
+# robots.txt for AllHalal / HalalScan
+# https://allhalal.info/robots.txt
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://allhalal.info/sitemap.xml
+
+# Crawl-delay (optional, adjust if needed)
+# Crawl-delay: 1
+
+# Disallow specific paths (none for this site, but keeping for reference)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Block specific bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
